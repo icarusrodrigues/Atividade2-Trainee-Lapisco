@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(131, 131, 184);
+}
+
+
+
+h1 {
+    color: white;
+    height: 50px;
+}
+
+input {
+    display: flex;
+    height: 45px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.calculator {
+    display: flex;
+    height: 750px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    font-size: 20px;
+    height: 60px;
+    width: 180px;
+    padding: 16px 27px;
+    border-radius: 10px;
+    background-color: rgb(222, 158, 38);
+}
+
+* {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}

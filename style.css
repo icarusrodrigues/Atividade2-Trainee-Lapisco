@@ -14,6 +14,7 @@ input {
     width: 300px;
     border: none;
     border-radius: 15px;
+    box-shadow: 20px 15px 10px -1px rgb(0 0 0 / 15%);
     text-align: center;
 }
 
@@ -36,6 +37,7 @@ input {
     border-radius: 10px;
     cursor: pointer;
     background-color: rgb(222, 158, 38);
+    box-shadow: 20px 15px 10px -1px rgb(0 0 0 / 15%);
     margin-bottom: 0px;
 }
 

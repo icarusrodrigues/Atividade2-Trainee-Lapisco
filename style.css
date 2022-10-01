@@ -8,6 +8,15 @@ h1 {
     height: 50px;
 }
 
+h3 {
+    display: block;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    /* margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    font-weight: bold;
+}
+
 input {
     display: flex;
     height: 45px;
@@ -46,54 +55,41 @@ input {
 }
 
 .imc-result {
-    display: inline-block;
-    width: 100%;
-}
-
-.imc-result h3 {
-    position: static;
-    padding-left: 48.5%;
-    float: left;
-    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    margin-top: 10px;
 }
 
 .bmi-result {
     float: left;
-    margin: 20px 10px 0px;
+    flex-direction: row;
+    margin-top: 2.5px;
+    margin-left: 10px;
 }
 
 .condition {
-    display: inline-block;
-    width: 100%;
-}
-
-.condition h3 {
-    position: static;
-    padding-left: 45%;
-    float: left;
-    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 25px;
 }
 
 .condition-result {
     float: left;
-    margin: 1.5px 10px 0px;
+    margin-top: 3px;
+    margin-left: 10px;
 }
 
 .ideal {
-    display: inline-block;
-    width: 100%;
-}
-
-.ideal h3 {
-    position: static;
-    padding-left: 44.5%;
-    float: left;
-    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 25px;
 }
 
 .w-ideal {
     float: left;
-    margin: 2px 10px;
+    margin-top: 3px;
+    margin-left: 10px;
 }
 
 * {

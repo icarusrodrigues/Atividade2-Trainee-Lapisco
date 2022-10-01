@@ -8,10 +8,10 @@ function Calculate() {
     let result = (weight / (height * height * 0.0001));
     let ideal = 24.9 * (height * height * 0.0001);
 
-
     if (!+result) {
         document.querySelector(".bmi-result").textContent = "";
         document.querySelector(".condition-result").textContent = "";
+        document.querySelector(".w-ideal").textContent = "";
         alert("Erro! Digite apenas valores numéricos!");
     } else {
         if (result < 18.5) {
@@ -40,5 +40,4 @@ function Calculate() {
             document.querySelector(".w-ideal").textContent = ideal;
         }
     }
-
 }

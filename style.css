@@ -1,8 +1,7 @@
 body {
-    background-color: rgb(131, 131, 184);
+    background-color: rgb(15, 206, 126);
+    /* rgb(131, 131, 184) */
 }
-
-
 
 h1 {
     color: white;
@@ -13,6 +12,7 @@ input {
     display: flex;
     height: 45px;
     width: 300px;
+    border: none;
     border-radius: 15px;
     text-align: center;
 }
@@ -26,14 +26,72 @@ input {
     justify-content: center;
 }
 
-button {
+.calc {
     display: flex;
     font-size: 20px;
     height: 60px;
     width: 180px;
-    padding: 16px 27px;
+    padding: 18px 30px;
+    border: none;
     border-radius: 10px;
+    cursor: pointer;
     background-color: rgb(222, 158, 38);
+    margin-bottom: 0px;
+}
+
+.calc:hover {
+    background-color: rgb(189, 134, 32);
+}
+
+.imc-result {
+    display: inline-block;
+    width: 100%;
+}
+
+.imc-result h3 {
+    position: static;
+    padding-left: 48.5%;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.bmi-result {
+    float: left;
+    margin: 20px 10px 0px;
+}
+
+.condition {
+    display: inline-block;
+    width: 100%;
+}
+
+.condition h3 {
+    position: static;
+    padding-left: 45%;
+    float: left;
+    margin-top: 0px;
+}
+
+.condition-result {
+    float: left;
+    margin: 1.5px 10px 0px;
+}
+
+.ideal {
+    display: inline-block;
+    width: 100%;
+}
+
+.ideal h3 {
+    position: static;
+    padding-left: 44.5%;
+    float: left;
+    margin-top: 0px;
+}
+
+.w-ideal {
+    float: left;
+    margin: 2px 10px;
 }
 
 * {

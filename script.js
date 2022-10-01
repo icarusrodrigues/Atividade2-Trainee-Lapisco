@@ -12,7 +12,7 @@ function Calculate() {
     if (!+result) {
         document.querySelector(".bmi-result").textContent = "";
         document.querySelector(".condition-result").textContent = "";
-        alert("Erro! Digite Apenas numéricos!");
+        alert("Erro! Digite apenas valores numéricos!");
     } else {
         if (result < 18.5) {
             document.querySelector(".bmi-result").textContent = result;
